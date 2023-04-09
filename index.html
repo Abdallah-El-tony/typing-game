@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>typing test game</title>
+    <link rel="stylesheet" href="type.css">
+</head>
+<body>
+    <h2 class="title">Typeing Speed Test Game</h2>
+    <div class="container">
+        <h2 class="select">Select Level</h2>
+        <div class="selectlevel">
+            <span class="easy">
+                <label for="easy">Easy</label>
+                <input id="easy" type="checkbox">
+            </span>
+            <span class="normal">
+                <label for="normal">Normal</label>
+                <input id="normal" type="checkbox" checked>
+            </span>
+            <span class="hard">
+                <label for="hard">Hard</label>
+                <input id="hard" type="checkbox">
+            </span>
+        </div>
+        <div class="instruction">
+            You Are Playing On [ <span class="level">normal</span> ] Level & You Have[ <span class="second">3</span> ]
+            Second To type the word
+        </div>
+        <div class="startbtn">Start Typing</div>
+        <div class="theword"></div>
+        <input type="text" id="input">
+        <div class="upcomingwords">
+            <!-- <p class="items">coding</p>
+            <p class="items">funny</p>
+            <p class="items">coding</p>
+            <p class="items">programming</p> -->
+        </div>
+        <div class="score-timeleft">
+            <div 
+            class="timeleft">Time Left: <span class="second" id="span1">3</span>  seconds
+            </div>
+            <div 
+            class="score">Score: <span class="score" id="span2">0</span> From <span class="lenght"></span>
+            </div>
+    </div>
+    <div class="finish"></div>
+    <audio id="fail" src="sounds/mixkit-sad-game-over-trombone-471.wav" preload="auto"></audio>
+    <audio id="good" src="sounds/mixkit-game-level-completed-2059.wav" preload="auto"></audio>
+    <script src="type.js"></script>
+</body>
+</html>

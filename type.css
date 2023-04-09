@@ -1,0 +1,127 @@
+ * {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+ }
+ body {
+    background-color:#dde;
+ }
+ span {
+    color:green
+ }
+ 
+ .title{
+    color: white;
+    text-transform: capitalize;
+    background-color: #46c4c3;
+    text-align: center;
+    padding: 10px 0px;
+    
+ }
+ .container {
+    width:90%;
+    margin:auto;
+ }
+ .container .instruction {
+    text-align:center;
+    background-color:white;
+    padding:15px 0px;
+    margin-top:10px;
+    margin-bottom:5px;
+ }
+ .container .startbtn {
+   text-align: center;
+    background-color: #45c4c3;
+    width: 260px;
+    padding: 10px;
+    color: white;
+    margin: 10px auto;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .container .theword {
+    color:#46c4c3;
+    text-align:center;
+    margin:30px;
+    font-size:40px;
+    font-weight:bold;
+    user-select: none;
+ }
+ .container input {
+    width: 100%;
+    caret-color: #46c4c3;
+    border: 2px solid #45c4c3;
+    padding: 10px;
+    outline:none;
+    margin-bottom: 20px;
+    font-size:30px;
+    text-align:center;
+    color:#45c4c3;
+    
+ }
+ .upcomingwords {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    flex-wrap:wrap;
+ }
+ .upcomingwords .items {
+background-color: #45c4c3;
+color:white;
+padding:5px 10px;
+border-radius:5px;
+margin:5px;
+
+ }
+ .score-timeleft {
+   display:flex;
+   justify-content: space-between;
+   align-items:center;
+   background-color: white;
+    margin: 10px;
+    padding: 10px;
+ }
+ .finish {
+   text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+ }
+ .select {
+   text-align: center;
+    background-color: green;
+    width: fit-content;
+    margin: auto;
+    transform: translate(0px,10px);
+    padding: 9px 132px;
+    color: white;
+}
+ 
+ .selectlevel {
+   display: flex;
+    background-color: white;
+    padding: 30px 54px 2px;
+    justify-content: center;
+    background-color: #75ff0073;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+}
+ 
+ .selectlevel span {
+   text-align:center;
+ }
+ .selectlevel label {
+      color: #0d0d0c;
+      margin: 20px;
+  }
+  .selectlevel input {
+   
+   height: 30px;
+   display: inline-block;
+   margin-top: 15px;
+}
+ 
